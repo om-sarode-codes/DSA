@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main(){
+int main (){
     int arr[]={55,24,65,46,85};
     int  n=sizeof(arr)/sizeof(int);
 
