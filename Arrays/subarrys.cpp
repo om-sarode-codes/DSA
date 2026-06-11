@@ -1,21 +1,23 @@
 #include <iostream>
 using namespace std;
 
-void subarrays(int arr[],int n){
+void sumofsubarrays(int arr[],int n){
 
-    for(int start=0;start<n;start++){
-        for(int end=start;end<n;end++){
-            for(int i=start;i<=end;i++){
-                cout<<arr[i]<<" ";
-            }
-            cout<<endl;
+   for(int st=0;st<n;st++){
+    for(int end=st;end<n;end++){
+        int sum=0;
+        for(int i=st;i<=end;i++){
+            sum=sum+arr[i];
         }
+        cout<<"sum of subarrys :"<<sum<<endl;
     }
+    cout<<endl;
+   }
 }
 
 int main(){
-    int arr[] = {10, 20, 30, 40, 50, 60};
+    int arr[] = {10, 20, 30, 40};
     int n = sizeof(arr) / sizeof(int);
-     subarrays(arr,n);
+     sumofsubarrays(arr,n);
     return 0;
 }
