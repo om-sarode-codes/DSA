@@ -14,15 +14,15 @@ void maxsubarrays(int arr[], int n)
             {
                 cursum += arr[i];
             }
-           maxsum= max(cursum,maxsum);
+            maxsum = max(cursum, maxsum);
         }
     }
-    cout<<"MAX SUM : "<<maxsum;
+    cout << "MAX SUM : " << maxsum;
 }
 
 int main()
 {
-    int arr[] = {2,-3,6,-5,4,2};
+    int arr[] = {2, -3, 6, -5, 4, 2};
     int n = sizeof(arr) / sizeof(int);
     maxsubarrays(arr, n);
     return 0;
