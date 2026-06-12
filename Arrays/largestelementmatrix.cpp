@@ -21,5 +21,5 @@ int main()
             }
         }
     }
-    cout << max;
+    cout <<"largest el : "<< max;
 }
