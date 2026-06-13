@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    string str = "hello my nam is om";
+    string str = "hello my nam isom";
     string str2 = "aeiou";
 
     int vowels = 0;
@@ -19,6 +19,26 @@ int main()
             {
                 vowels++;
             }
+        }
+    }
+    cout << vowels;
+
+    return 0;
+}
+
+
+int main()
+{
+
+    string str = "hello my nam is om";
+
+    int vowels = 0;
+
+    for (int i = 0; i < str.length(); i++)
+    {
+        if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
+        {
+            vowels++;
         }
     }
     cout << vowels;
