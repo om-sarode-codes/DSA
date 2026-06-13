@@ -13,9 +13,7 @@ int main()
 
     while (st <= end)
     {
-        swap(ch[st], ch[end]);
-        st++;
-        end--;
+        swap(ch[st++], ch[end--]);
     }
     cout << ch;
 
