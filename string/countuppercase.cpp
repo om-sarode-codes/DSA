@@ -15,6 +15,6 @@ int main()
             count++;
         }
     }
-    cout << count;
+    cout<<"upper case no : " << count;
     return 0;
 }
