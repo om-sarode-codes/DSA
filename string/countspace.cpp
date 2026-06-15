@@ -10,11 +10,11 @@ int main()
     int count = 0;
     for (int i = 0; i < str.length(); i++)
     {
-        if (str[i] >= 'a' && str[i] <= 'z')
+        if (str[i]==' ')
         {
             count++;
         }
     }
-    cout<<"lower case  no : " << count;
+    cout<<"count sapce  no : " << count;
     return 0;
 }
