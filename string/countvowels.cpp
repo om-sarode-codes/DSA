@@ -21,11 +21,10 @@ int main()
             }
         }
     }
-    cout<<"count vowels : " << vowels;
+    cout << "count vowels : " << vowels;
 
     return 0;
 }
-
 
 int main()
 {
@@ -41,7 +40,7 @@ int main()
             vowels++;
         }
     }
-    cout <<"count vowels : "<< vowels;
+    cout << "count vowels : " << vowels;
 
     return 0;
 }
