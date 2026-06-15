@@ -1,20 +1,20 @@
-#include <iostream>
-#include <cstring>
-#include <algorithm>
-using namespace std;
+    #include <iostream>
+    #include <cstring>
+    #include <algorithm>
+    using namespace std;
 
-int main()
-{
-
-    string str = "HeLLo";
-    int count = 0;
-    for (int i = 0; i < str.length(); i++)
+    int main()
     {
-        if (str[i] >= 'A' && str[i] <= 'Z')
+
+        string str = "HeLLo";
+        int count = 0;
+        for (int i = 0; i < str.length(); i++)
         {
-            count++;
+            if (str[i] >= 'A' && str[i] <= 'Z')
+            {
+                count++;
+            }
         }
+        cout<<"upper case no : " << count;
+        return 0;
     }
-    cout<<"upper case no : " << count;
-    return 0;
-}
