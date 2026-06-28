@@ -15,7 +15,7 @@ class Car{
     }
 
     void display(){
-        cout<<" brand name : "<<brand<<endl;
+        cout<<"brand name : "<<brand<<endl;
         cout<<"model name : "<<model<<endl;
         cout<<"price : "<<price<<endl;
     }

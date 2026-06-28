@@ -27,10 +27,6 @@ int main(){
     Student s1("om sarode",79,1556);
      s1.display();
 
-    // s1.name="om sarode";
-    // s1.age=19;
-    // s1.rollno=1556;
-    // s1.display();
-
+   
     return 0;
 }
