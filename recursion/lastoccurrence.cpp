@@ -3,7 +3,7 @@
 using namespace std;
 int lastoccurrence(vector<int> arr, int n, int i, int target)
 {
-    if (i == n)
+    if (i < 0)
     {
         return -1;
     }
