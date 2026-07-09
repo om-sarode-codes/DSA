@@ -14,6 +14,6 @@ void revers(string str, int i, int n)
 }
 int main()
 {
-    string str = "helloaachal";
+    string str = "helloomkeseho";
     revers(str, 0, str.size());
 }
