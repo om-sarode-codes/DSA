@@ -11,7 +11,7 @@ void uppercase(string &str, int i)
 
     if (str[i] >= 'a' && str[i] <= 'z')
     {
-        str[i] = str[i] - 32;
+        str[i] = str[i] -'a'+'A';
     }
     cout << str[i];
     uppercase(str, i + 1);

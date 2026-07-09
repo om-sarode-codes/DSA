@@ -11,7 +11,7 @@ void convertlower(string &str, int i)
 
     if (str[i] >= 'A' && str[i] <= 'Z')
     {
-        str[i] = str[i] + 32;
+        str[i] = str[i] -'A'+'a';
     }
     cout << str[i];
     convertlower(str, i + 1);
@@ -19,6 +19,6 @@ void convertlower(string &str, int i)
 
 int main()
 {
-    string str = "Hello AAchal";
+    string str = "HeLLO AAchal";
     convertlower(str, 0);
 }
