@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int partistion(int arr[], int st, int end)
+int partition(int arr[], int st, int end)
 {
 
     int pivot = arr[end];
@@ -26,7 +26,7 @@ void quicksort(int arr[], int st, int end)
     {
         return;
     }
-    int pivotidx = partistion(arr, st, end);
+    int pivotidx = partition(arr, st, end);
 
     quicksort(arr, st, pivotidx - 1);
     quicksort(arr, pivotidx + 1, end);
